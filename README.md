@@ -3,14 +3,10 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://shields.io/category/build">
-
-  <img alt="Repository size" src="https://shields.io/category/size">
-	
-  <a href="https://www.linkedin.com/in/soonas/">
-    <img alt="Made by Soonas" src="https://img.shields.io/badge/made%20by-Soonas-brightgreen">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  </a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Soonas/ecoleta">
+  <img alt="Made by Soonas" src="https://img.shields.io/badge/made%20by-Soonas-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="Repository size" src="https://img.shields.io/github/stars/Soonas/Ecoleta?style=social">
 </p>
 
 
@@ -49,28 +45,32 @@ No seu terminal digite o comando:
 
 ```bash
 # Clone esse repositorio
-# $ git clone https://github.com/Soonas/Ecoleta
+# $ git clone https://github.com/Soonas/Ecoleta.git
 
 # Vá ao repositório
 # $ cd nlw/backend
 
-# Instale as dependencias
-$ yarn install
+# Instale as dependências
+$ npm install
 
-# Rode o Migrates
-$ yarn knex:migrate 
+## Crie o banco de dados
+$ cd server
+$ npm run knex:migrate
+$ npm run knex:seed
 
-# Rode o Seeds
-$ yarn knex:seed
+# Inicie a API
+$ npm run dev
 
-# Starte o server
-$ yarn dev
+# Inicie a aplicação web
+$ cd web
+$ npm start
 
 running on port 3333
 ```
 
 ## 🤔 Como contribuir:
 
+- De uma ⭐;
 - Faça um fork;
 - Faça um push para o seu branch: `git push origin my-feature`.
 
@@ -78,9 +78,9 @@ Depois de mesclar sua solicitação de recebimento, você pode excluir o branch 
 
 ## : : Licença
 
-<!--gerar seu MIT >> This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details. -->
+Esse projeto possui licença MIT. Veja a [LICENSE](https://github.com/Soonas/Ecoleta/blob/master/LICENSE) para mais detalhes.
 
-
+## 
 Made with ❤ by Soonas 🤜 [Get in touch!][touch] 
 
 [nodejs]: https://nodejs.org/
