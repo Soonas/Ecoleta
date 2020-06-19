@@ -1,2 +1,5 @@
-*/node_modules/*
-*/json/*
+node_modules
+*json
+uploads/*
+
+*.sqlite
